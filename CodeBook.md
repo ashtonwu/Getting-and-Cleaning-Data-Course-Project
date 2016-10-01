@@ -196,7 +196,7 @@ fBodyAccMag-mean
 fBodyAccMag-std         
   &nbsp;&nbsp;Standard deviation of the Fast Fourier Transform of the magnitude of the body acceleration signals
 
-fBodyAccJerkMag-mean 
+fBodyAccJerkMag-mean  
   &nbsp;&nbsp;Mean of the Fast Fourier Transform of the magnitude of the Jerk signals of the body acceleration signals
 
 fBodyAccJerkMag-std  
@@ -208,8 +208,8 @@ fBodyGyroMag-mean
 fBodyGyroMag-std     
   &nbsp;&nbsp;Standard deviation of the Fast Fourier Transform of the magnitude of the body gyroscopic signals
 
-fBodyGyroJerkMag-mean
+fBodyGyroJerkMag-mean  
   &nbsp;&nbsp;Mean of the Fast Fourier Transform of the magnitude of the Jerk signals of the body gyroscopic signals
 
-fBodyGyroJerkMag-std
+fBodyGyroJerkMag-std  
   &nbsp;&nbsp;Standard deviation of the Fast Fourier Transform of the magnitude of the Jerk signals of the body gyroscopic signals
