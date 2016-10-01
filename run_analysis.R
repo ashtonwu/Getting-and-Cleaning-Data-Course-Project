@@ -55,6 +55,8 @@ colnames(masterdataset)[2] = 'activity'
 masterdataset = masterdataset[,c(1,2,grep("mean\\(\\)|std\\(\\)",names(masterdataset)))]
 #Remove "()" from variable names to make it cleaner
 names(masterdataset) = gsub("\\(\\)","",names(masterdataset))
+#Remove redunant "BodyBody" from variable names. This is a mistake in the features.txt file.
+names(masterdataset) = gsub("BodyBody","Body",names(masterdataset))
 
 #Create a second, tidy data set with the average of each variable for each activity and each subject.
 #Resulting output is a data frame with the first two columns as the unique combination of subject and activity,
