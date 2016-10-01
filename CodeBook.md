@@ -4,8 +4,8 @@ Both data frames have the same column names, where "tidydataset" is the average 
 
 
 subject
-	Subject ID of the study participant
-		1..30
+  Subject ID of the study participant
+    1..30
 
 activity
   Description of the physical activity the subject was performing
