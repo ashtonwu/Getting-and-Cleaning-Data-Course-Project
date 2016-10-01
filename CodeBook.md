@@ -34,7 +34,7 @@ tBodyAcc-std-Y
 tBodyAcc-std-Z
   Standard deviation of the body acceleration signals in the Z direction
   
-tGravityAcc-mean-X
+tGravityAcc-mean-X  
   Mean of the gravity acceleration signals in the X direction
   
 tGravityAcc-mean-Y  
