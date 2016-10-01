@@ -1,14 +1,14 @@
 # Code Book
-Data dictionary for the two data frames output from run_analysis.R: "masterdataset" and "tidydataset"
+Data dictionary for the two data frames output from run_analysis.R: "masterdataset" and "tidydataset"  
 Both data frames have the same column names, where "tidydataset" is the average of the values found in "masterdataset", grouped by unique subject and activity.
 
 
-subject
-  Subject ID of the study participant
+subject  
+  Subject ID of the study participant  
     1..30
 
-activity
-  Description of the physical activity the subject was performing
+activity  
+  Description of the physical activity the subject was performing  
     walking
     walkingupstairs
     walkingdownstairs
@@ -16,22 +16,22 @@ activity
     standing
     laying
 
-tBodyAcc-mean-X
+tBodyAcc-mean-X  
   Mean of the body acceleration signals in the X direction
 
-tBodyAcc-mean-Y
+tBodyAcc-mean-Y  
   Mean of the body acceleration signals in the Y direction
   
 tBodyAcc-mean-Z
   Mean of the body acceleration signals in the Z direction
   
-tBodyAcc-std-X
+tBodyAcc-std-X  
   Standard deviation of the body acceleration signals in the X direction
   
-tBodyAcc-std-Y
+tBodyAcc-std-Y  
   Standard deviation of the body acceleration signals in the Y direction
   
-tBodyAcc-std-Z
+tBodyAcc-std-Z  
   Standard deviation of the body acceleration signals in the Z direction
   
 tGravityAcc-mean-X  
