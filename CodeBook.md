@@ -4,17 +4,17 @@ Both data frames have the same column names, where "tidydataset" is the average 
 
 
 subject  
-  &nbsp;Subject ID of the study participant  
-    &nbsp;&nbsp;1..30
+  &nbsp;&nbsp;Subject ID of the study participant  
+    &nbsp;&nbsp;&nbsp;&nbsp;1..30
 
 activity  
-  Description of the physical activity the subject was performing  
-    walking
-    walkingupstairs
-    walkingdownstairs
-    sitting
-    standing
-    laying
+  &nbsp;&nbsp;Description of the physical activity the subject was performing  
+    &nbsp;&nbsp;&nbsp;&nbsp;walking
+    &nbsp;&nbsp;&nbsp;&nbsp;walkingupstairs
+    &nbsp;&nbsp;&nbsp;&nbsp;walkingdownstairs
+    &nbsp;&nbsp;&nbsp;&nbsp;sitting
+    &nbsp;&nbsp;&nbsp;&nbsp;standing
+    &nbsp;&nbsp;&nbsp;&nbsp;laying
 
 tBodyAcc-mean-X  
   Mean of the body acceleration signals in the X direction
