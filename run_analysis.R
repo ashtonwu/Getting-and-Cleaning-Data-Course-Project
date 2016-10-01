@@ -5,6 +5,14 @@
 #This script was made for the Getting and Cleaning Data Course Project from Coursera.
 
 library(plyr)
+library(downloader)
+
+#Check if data set files exist. If not, download and unzip them into /UCI HAR Dataset
+if(!file.exists("./UCI HAR Dataset")){
+  fileUrl = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+  download(fileUrl, dest="UCI HAR Dataset.zip", mode="wb")
+  unzip("UCI HAR Dataset.zip")
+}
 
 #lookup table for activity names
 activitylabels = read.table("./UCI HAR Dataset/activity_labels.txt") 
@@ -35,6 +43,7 @@ masterdataset = rbind(testdataset,traindataset)
 names(masterdataset) = c('subject','activity',as.character(features$V2))
 
 #Replace the integer activity ID with the descriptive activity name from the activitylabels lookup
+#This merge produces a warning message about the truncated column names.
 masterdataset = merge(masterdataset, activitylabels, by.x='activity', by.y='V1')
 #Re-order the columns to be subject, activity, then variables. Also remove the no longer necessary activity ID column.
 masterdataset = masterdataset[,c(2,564,3:563)]
