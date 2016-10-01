@@ -9,12 +9,12 @@ subject
 
 activity  
   &nbsp;&nbsp;Description of the physical activity the subject was performing  
-    &nbsp;&nbsp;&nbsp;&nbsp;walking
-    &nbsp;&nbsp;&nbsp;&nbsp;walkingupstairs
-    &nbsp;&nbsp;&nbsp;&nbsp;walkingdownstairs
-    &nbsp;&nbsp;&nbsp;&nbsp;sitting
-    &nbsp;&nbsp;&nbsp;&nbsp;standing
-    &nbsp;&nbsp;&nbsp;&nbsp;laying
+    &nbsp;&nbsp;&nbsp;&nbsp;walking  
+    &nbsp;&nbsp;&nbsp;&nbsp;walkingupstairs  
+    &nbsp;&nbsp;&nbsp;&nbsp;walkingdownstairs  
+    &nbsp;&nbsp;&nbsp;&nbsp;sitting  
+    &nbsp;&nbsp;&nbsp;&nbsp;standing  
+    &nbsp;&nbsp;&nbsp;&nbsp;laying  
 
 tBodyAcc-mean-X  
   Mean of the body acceleration signals in the X direction
