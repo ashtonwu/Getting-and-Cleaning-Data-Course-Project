@@ -1,10 +1,11 @@
 # Code Book
 Data dictionary for the two data frames output from run_analysis.R: "masterdataset" and "tidydataset"
 Both data frames have the same column names, where "tidydataset" is the average of the values found in "masterdataset", grouped by unique subject and activity.
- 
+
+
 subject
-&nbsp;Subject ID of the study participant
-&nbsp;&nbsp;1..30
+	Subject ID of the study participant
+		1..30
 
 activity
   Description of the physical activity the subject was performing
